@@ -41,6 +41,11 @@
     background-image:linear-gradient(to bottom,aquamarine  80%, darkgray 100%);
     transform: rotate(-10deg);    
 }
+#lavagna div:nth-child(3n+0){
+    /*background-color:aquamarine ;*/
+    background-image:linear-gradient(to bottom,#e49090  80%, darkgray 100%);
+    transform: rotate(-10deg);    
+}
 #lavagna div:hover{
     transform: rotate(25deg);
 }
